@@ -13,17 +13,6 @@ A simple **Python script** to backup files from a source folder to a backup fold
 
 ---
 
-## 📂 Project Structure
-
-```markdown
-├── backup_manager.py # Main script
-├── source_files/ # Folder containing files to backup
-├── backup_files/ # Folder where backups will be stored
-└── README.md # Project documentation
-```
-
----
-
 ## ⚡ Usage
 
 ```bash
@@ -56,3 +45,14 @@ python backup_manager.py
 - List files – Lists all files in the source folder.
 - Create backup – Copies each file to the backup folder, adding the current date to the filename.
 - Show summary – Displays a summary including source folder, backup folder, total files, and names of backed-up files
+
+---
+
+## 📂 Project Structure
+
+```markdown
+├── backup_manager.py # Main script
+├── source_files/ # Folder containing files to backup
+├── backup_files/ # Folder where backups will be stored
+└── README.md # Project documentation
+```
